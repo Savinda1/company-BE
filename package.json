@@ -1,0 +1,33 @@
+{
+  "name": "atendancebe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "npm install && tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/mongodb": "^0.1.0",
+    "@langchain/openai": "^0.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.30",
+    "mongoose": "^8.15.1",
+    "openai": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.2",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.15.29",
+    "nodemon": "^3.1.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
