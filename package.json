@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "npm install && tsc",
+    "build": "tsc",
     "start": "ts-node src/index.ts"
   },
   "author": "",
@@ -19,7 +19,8 @@
     "express": "^5.1.0",
     "langchain": "^0.3.30",
     "mongoose": "^8.15.1",
-    "openai": "^5.10.2"
+    "openai": "^5.10.2",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
